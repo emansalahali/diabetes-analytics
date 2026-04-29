@@ -1,14 +1,19 @@
-# AI-Enabled Diabetes Monitoring & Predictive Analytics 🩺
+# AI-Powered Diabetes Clinical Intelligence System 🩺
 
-## Project Overview
-This project is an advanced clinical intelligence solution designed to bridge the gap between raw healthcare data and actionable medical insights. It integrates **Machine Learning** for risk prediction and **Statistical Process Control (SPC)** for real-time patient monitoring.
+## Overview
+This project presents an integrated clinical decision support system that combines **Machine Learning (Random Forest)**, **Statistical Process Control (SPC)**, and **Business Intelligence (Power BI)** to monitor and predict diabetes risks. The system bridges the gap between raw healthcare data and actionable medical insights using a 6-phase implementation approach.
 
-## Key Enhancements (New)
-* **Automated Data Pipeline**: Handles "Biological Zeros" and clinical data cleaning using Python.
-* **Hybrid Validation**: Uses a dual-layer approach—Statistical (Shewhart Charts) and Predictive (Random Forest)—to ensure high accuracy in patient alerts.
-* **Feature Engineering**: Includes derived clinical metrics like HOMA-IR proxies and Genetic Risk profiling.
-* **BI Integration**: Real-time dashboards in Power BI for hospital management and stakeholder decision support.
+## Project Deliverables
+* **Healthcare-Diabetes.csv**: The primary clinical dataset (2,768+ records) including features like Glucose, BMI, and Insulin levels.
+* **SLR_Diabetes_AI_System.pdf**: A Systematic Literature Review prepared in accordance with **PRISMA 2020** guidelines, focusing on AI in health informatics.
+* **Project Implementation.docx**: Detailed technical documentation covering the project lifecycle from data cleaning to BI deployment.
 
-## Project Structure
-* 📂 **Data**: Clinical datasets and processing scripts.
-* 📂 **Documentation**: Includes Systematic Literature Review (SLR) and technical implementation phases.
+## Technical Implementation (Key Phases)
+* **Data Engineering**: Automated handling of "Biological Zeros" using mean imputation and clinical validation.
+* **Feature Engineering**: Creation of advanced clinical proxies like **HOMA-IR**, Genetic Risk Levels, and Clinical Tiers.
+* **Statistical Monitoring (SPC)**: Implementation of **Shewhart Control Charts** with a $3\sigma$ (three-sigma) threshold to flag out-of-control glucose levels.
+* **Predictive Modeling**: Using **Random Forest Classification** to provide double-layered validation (Statistical + AI).
+* **BI Deployment**: Interactive **Power BI** dashboards for real-time KPIs and proactive medical intervention.
+
+---
+*This project was developed as part of the Digital Egypt Pioneers Initiative (DEPI).*
